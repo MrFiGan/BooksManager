@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{502CFAC6-63BD-449A-9E64-34CCF5F40FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksAPI", "BooksAPI\BooksAPI.csproj", "{B91F4C9A-A102-4E80-A53E-99C3AAEAA5D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksAPI.Tests", "BooksAPI.Tests\BooksAPI.Tests.csproj", "{06FF6B41-8D9B-4A13-8EBD-86303969FBA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{502CFAC6-63BD-449A-9E64-34CCF5F40FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502CFAC6-63BD-449A-9E64-34CCF5F40FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502CFAC6-63BD-449A-9E64-34CCF5F40FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502CFAC6-63BD-449A-9E64-34CCF5F40FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91F4C9A-A102-4E80-A53E-99C3AAEAA5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91F4C9A-A102-4E80-A53E-99C3AAEAA5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91F4C9A-A102-4E80-A53E-99C3AAEAA5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91F4C9A-A102-4E80-A53E-99C3AAEAA5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06FF6B41-8D9B-4A13-8EBD-86303969FBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FF6B41-8D9B-4A13-8EBD-86303969FBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FF6B41-8D9B-4A13-8EBD-86303969FBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FF6B41-8D9B-4A13-8EBD-86303969FBA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4A83C02-6500-4473-877C-D5E420EA3ABB}
+	EndGlobalSection
+EndGlobal
